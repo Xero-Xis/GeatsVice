@@ -10,7 +10,9 @@ public class IntegerSet {
         my_set = new ArrayList<Integer>();
     }
     public class IntegerSetException extends Exception { // Makes an integer exception for largest and smallest function
-        public IntegerSetException(String error) {
+        private static final long serialVersionUID = 1L;
+
+		public IntegerSetException(String error) {
             super(error);
         }
     }
