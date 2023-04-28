@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+//Miles Adedjouma
+
 public class SongDatabase {
     /* Key is the genre, HashSet contains associated songs */
     private Map<String, HashSet<String>> map = new HashMap<String, HashSet<String>>();
